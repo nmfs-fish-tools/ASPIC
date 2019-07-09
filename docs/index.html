@@ -18,7 +18,7 @@
 
               
               
-              <div class = "badge" data-md-tooltip="Not Validated" id="greycheck">
+              <div class = "badge" data-md-tooltip="Support Level" id = internal_inactive >
               <!-- &#10039; -->
               </div>
               
@@ -46,14 +46,11 @@
               
 
               
-              <a href= "https://github.com/nmfs-fish-tools/ASPIC.git" target="_blank" title="link to code repository">
-                <button class = "codelink">
+                <button class = "codelink" id = "nolink">
                 Code Repository
                 </button>
-              </a>
               
-              <button class = "IconButton" title="need support?">
-                ?
+              <button class = "IconButton" title="e-mail fisheries.toolbox@noaa.gov" id ="email" onclick='location.href= "mailto:fisheries.toolbox@noaa.gov;"'>
               </button>
 
         </div>
@@ -68,14 +65,16 @@
 
               </div>
 
+
               
 
-              <!-- <a class = "githubIcon" href="https://github.com/nmfs-fish-tools/ASPIC.git" target="_blank"></a> -->
+              <!-- <a class = "githubIcon" href="" target="_blank"></a> -->
 
               <button class = "versionButton">
               Version 5.34.6
               </button>
         </div>
+
         <div class ="label">
             
               Type:  surplus production model
@@ -83,13 +82,14 @@
         </div>
 
         <div class = "authName">
-         author: 
+         Author: 
 
         </div >
 
         <div class ="mainText">
           A Stock Production Model Incorporating Covariates (ASPIC) is a non-equilibrium implementation of the well-known surplus production model of Schaefer (1954, 1957). ASPIC also fits the generalized stock production model of Pella and Tomlinson (1969) using the alternative parameterization of Fletcher (1978).The analytic engine for the ASPIC model, written by Dr. Michael Prager of the Southeast Fisheries Science Center, NMFS, incorporates several extensions to the classical stock-production models. ASPIC can fit data from up to 10 data series of fishery-dependent or fishery-independent indices, and uses bootstrapping to construct approximate nonparametric confidence intervals and to correct for bias. In addition, ASPIC can fit the model by varying the relative importance placed on yield versus measures of effort or indices of abundance. The model has been extensively reviewed and tested in the context of various applications to tuna stocks via the International Commission for the Conservation of Atlantic Tunas (ICCAT)  by Prager (1992 a, b). The model is more formally described in Prager (1994) and Quinn and Deriso (1999). Version 5.0 of ASPIC allows the user to estimate parameters by direct optimization, by grid search for model shape and by fixing model shape to fit the Fox (1970) model.ASPIC has been used as an assessment tool for swordfish (ICCAT), bluefin tuna (ICCAT), yellowtail flounder (NEFSC, NAFO), and fluke (NEFSC) among others.
         </div>
+
         <div class="mainText">
         
           <div class = "ref">
@@ -112,14 +112,35 @@
             </ul>
           
 
+
           
-            </div>
+
+            
+              <div class = "ref">
+            Code Repository Badges
+          </div>
+             
+
+              
+              <img src="https://www.repostatus.org/badges/latest/inactive.svg">
+              
+              
+
+          </div>
       </div>
 
       <div class = "divider"></div>
-        <footer> <a class ="mylink" href="https://www.commerce.gov/">U.S. Department of Commerce</a>
-    <a class ="mylink" href="https://www.noaa.gov">National Oceanographic and Atmospheric Administration</a>
-    <a class ="mylink" href="https://www.fisheries.noaa.gov/">NOAA Fisheries</a></footer>
+
+        <footer >
+             <img src="./static/noaa-fisheries-rgb-2line-horizontal-small.png" height="75px">
+         <div class="mywrap_center">
+          <a class ="mylink" id = "line" href="https://www.commerce.gov/">U.S. Department of Commerce</a>
+         <a class ="mylink" id = "line" href="https://www.noaa.gov">National Oceanographic and Atmospheric Administration</a>
+         <a class ="mylink" href="https://www.fisheries.noaa.gov/">NOAA Fisheries</a>
+         </div>
+
+        </footer>
+        <div class ="attribution">Icons by icons8 https://icons8.com/</div>
 
     </div>
 
