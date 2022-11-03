@@ -4,7 +4,7 @@
 
 **************
 
-https://nmfs-fish-tools.github.io/ASPIC/
+https://nmfs-fish-tools.github.io/ASPIC
 
 **************
 
